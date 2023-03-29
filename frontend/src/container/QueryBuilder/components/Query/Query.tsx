@@ -10,9 +10,9 @@ import {
 import { useQueryBuilder } from 'hooks/useQueryBuilder';
 // ** Hooks
 import React from 'react';
-import { DataSource } from 'types/common/queryBuilder';
 // ** Constants
 import {
+	DataSource,
 	LogsAggregatorOperator,
 	MetricAggregateOperator,
 	TracesAggregatorOperator,
